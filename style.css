@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Oswald:wght@300&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0 2%;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+
+}
+
+nav #profil{
+ display: flex;
+ align-items: center;
+}
+
+nav #profil img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+nav #profil h1{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    margin-left: 50px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    
+}
+
+nav ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav ul li:hover{
+    border-bottom-color: black;
+}
+
+#page-content {
+    
+  margin: 4%;
+}
+
+
+#page-content header {
+    margin-top: 5%;
+    max-width: 80%;
+}
+
+#page-content header h1 {
+    margin-top: 6%;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 6vw;
+}
+
+#page-content header button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#page-content header button:hover {
+    color: #ccc;
+    border-bottom-color:#000 ;
+}
+
+#page-content #presentation-image {
+    margin-top: 6%;
+    display: flex;
+    
+}
+
+#page-content #presentation-image img {
+    margin-top: 5%;
+    margin-bottom: 6%;
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.5s;
+    margin-right: 100px;
+}
+
+#page-content #presentation-image img:hover {
+    filter: brightness(50%);
+}
+
+#page-content #presentation-image #About {  
+  max-width: 100%;
+  margin-right: 100px;
+  
+}
+
+#page-content #presentation-image #About h1 {
+    margin-bottom: 0;
+    font-family:'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 4vw;
+}
+
+#page-content #presentation-image #About h2 {
+    margin-top: 1;
+}
+
+#page-content #projects-section {
+    margin-top: 10%;
+}
+
+#page-content #projects-section h1 {
+    font-family: 'Oswald' , sans-serif;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+
+#page-content #projects-section .projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#page-content #projects-section .project {
+    max-width: 195px;
+    margin-right: 60px;
+}
+
+#page-content #projects-section .project h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#page-content #projects-section .project a {
+    text-decoration: none;
+    color: black;
+}
+
+#page-content #projects-section .project .description {
+    font-size: 15px;
+
+}
+
+#page-content #projects-section .project .dates {
+    font-size: 13px;
+    color: rgb(145, 145, 145);
+}
+
+footer {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+
+footer .colonne p {
+    font-size: 12px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+
+
+footer .colonne p:hover {
+    color: white;
+}
+
+footer .colonne svg{
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+
+@media screen and (max-width: 767px) {
+    nav{
+        justify-content: left;
+       
+    
+    }
+
+    nav ul {
+       
+    }
+
+    nav ul li {
+        margin-left: 10px;
+    }
+
+    
+
+    #page-content header {
+        margin-top: 10%;
+        max-width: 100%;
+    }
+    #page-content #presentation-image {
+        flex-direction: column;
+    }
+
+    #page-content #projects-section {
+        margin-top: 15%;
+    }
+
+    #page-content #projects-section h1 {
+        font-size: 1.5em;
+    }
+
+    #page-content #projects-section .project .description {
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+
+    }
+
+    footer .column {
+        width: 80%;
+    }
+}

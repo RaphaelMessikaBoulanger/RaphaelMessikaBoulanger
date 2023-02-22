@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 1000vh;
+    background-image: url("./mur\ acoustique.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+#global{
+    width:100vw;
+    height: 20vh;
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    
+}
+
+#navbar{
+    width: 70vw;
+    height: 20vh;
+    background-color: rgba(0, 0, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.class{
+    width: 20vw;
+    height: 10vh;
+    background-color: rgba(165, 42, 42, 0);
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(176, 101, 8);
+    border-radius: 15px;
+}
