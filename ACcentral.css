@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    
+
+
+    
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(2, 2, 2);
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px ;
+}
+
+.containerdroit {
+    width: 100vw;
+    height: 10vh;
+    background-color:rgb(2, 2, 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu {
+    width: 55vw;
+    height: 8vh;
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 400px;
+    
+
+}
+#navbar .containerdroit .menu a {
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: 'Cinzel', serif;
+}
+
+
+
+
+
+#header {
+    width: 100vw;
+    height: 210vh;
+    background-color:  rgb(252, 252, 252);
+    
+}
+
+.hero {
+    width: 100vw;
+    height: 120vh;
+    
+}
+
+#header .hero img {
+    width: 100vw;
+    height: 140vh;
+
+}
+
+
+
+.secondhero {
+    width: 60vw;
+    height: 60vh;
+    background-color: rgb(252, 252, 252);
+    position: relative;
+    left: 290px;
+    bottom: -50px;
+    
+}
+
+#header .secondhero img {
+    width: 60vw;
+    height: 60vh;
+}
+
+#main {
+    width: 100vw;
+    height: 130vh;
+    background-color:  rgb(252, 252, 252);
+}
+
+.titre {
+    width: 100vw;
+    height: 10vh;
+    background-color:  rgb(198, 197, 197);
+    display: flex;
+    justify-content: center;
+    text-align:center;  
+}
+
+.titre h1 {
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.secondtitre {
+    width: 60vw;
+    height:10vh;
+    background-color:rgb(198, 197, 197) ;
+}
+
+.secondtitre h1 {
+    text-transform: uppercase;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+#GlobalCarousel{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 255, 0);
+    display: flex;
+    justify-content: center; 
+}
+
+#carouselExample{
+    width: 40vw;
+    height: 100vh;
+    background-color: rgba(255, 0, 0, 0);
+    
+}
+
+.carousel-inner {
+    border-radius: 20px;
+}
+
+.carousel-item img{
+    width: 50px;
+    height: 750px;
+    border-radius: 20px;
+
+}
+
+#commentaire {
+    width: 100vw;
+    height: 100vh;
+    background-color:  rgb(252, 252, 252);
+    
+}
+
+#navcommentaire {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(198, 197, 197);
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+#navcommentaire h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    
+}
+
+#commentlogo {
+    width:   90px;
+    height: 90px;
+    background-color:rgb(198, 197, 197);
+    border-radius: 50px;
+
+}
+
+#commentlogo .fa {
+    font-size: 90px;
+}
+
+#textcomment {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#comentaires {
+    width: 80vw;
+    height: 40vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#footer h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    color:  rgb(252, 252, 252);
+    margin-top: 10px;
+}
+
+.icon {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+.icon .fa {
+    font-size: 30px;
+    color: rgb(252, 252, 252);
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+
+
+@media screen and (max-width: 767px){
+
+    #navbar {
+        width: 100vw;
+        height: 7vh;
+        background-color: rgb(2, 2, 2);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        
+     }
+       
+    .logo {
+        width: 20px;
+        height: 20px;
+        background-color: blueviolet;
+        border-radius: 40px;
+        margin: 0;
+        
+        
+    }
+    
+    .logo img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    
+    .containerdroit {
+        width: 80vw;
+        height: 10vh;
+        background-color:rgb(2, 2, 2);
+        margin: 0;
+        
+        
+    }
+    
+    .menu {
+        width: 70vw;
+        height: 7vh;
+        background-color: rgb(2, 2, 2);
+        margin: 0;
+        
+       }
+
+       #navbar .containerdroit .menu a {
+        font-size: 10px;
+        text-decoration: none;
+        color: whitesmoke;
+        text-transform: uppercase;
+        font-family: 'Cinzel', serif;
+    }
+    
+    #header {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .hero {
+        width: 100vw;
+        height: 30vh;
+        position: absolute;
+    }
+    
+
+    #header .hero img {
+        width: 100%;
+        height: 100%;
+    
+    }
+
+    .secondhero {
+        width: 70vw;
+        height: 20vh;
+        background-color: rgb(252, 252, 252);
+        position: relative;
+        left: 65px;
+        bottom: -230px;
+    }
+    
+    #header .secondhero img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #main {
+        width: 100vw;
+        height: 70vh;
+        background-color:  rgb(252, 252, 252);
+    }
+
+    
+
+    .titre h1 {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+       
+       
+    }
+
+    .secondtitre {
+        width: 85vw;
+        height:8vh;
+        background-color:rgb(198, 197, 197) ;
+    }
+    
+    .secondtitre h1 {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+    }
+
+    #GlobalCarousel{
+        width: 100vw;
+        height: 50vh;
+        background-color: rgba(0, 0, 255, 0);
+        display: flex;
+        justify-content: center; 
+    }
+    
+    #carouselExample{
+        width: 75vw;
+        height: 50vh;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .carousel-inner {
+        height: 60vh;
+    }
+
+    
+    .carousel-item img{
+        width: 50px;
+        height: 433px;
+       }
+
+       #commentaire {
+        width: 100vw;
+        height: 45vh;
+        background-color:  rgb(252, 252, 252);
+        
+    }
+    
+    #navcommentaire {
+        width: 100vw;
+        height: 10vh;
+        background-color: rgb(198, 197, 197);
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+    
+    #commentaire #navcommentaire h2 {
+        font-size: 20px;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    
+    #commentlogo {
+        width:   45px;
+        height: 45px;
+        background-color:rgb(198, 197, 197);
+        border-radius: 50px;
+        margin-top: 5px;
+
+    
+    }
+    #commentlogo .fa {
+      font-size: 40px;
+    }
+    
+    #textcomment {
+        width: 100vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #comentaires {
+        width: 80vw;
+        height: 40vh;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #footer {
+        width: 100vw;
+        height: 10vh;
+        background-color: rgb(2, 2, 2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    #footer h2 {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+        color:  rgb(252, 252, 252);
+    }
+    
+    .icon {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(2, 2, 2);
+        border-radius: 50px;
+        
+    }
+
+    .icon .fa {
+        font-size: 20px;
+        color: rgb(252, 252, 252);
+        justify-content: center;
+        margin-top: 20px;
+        
+    }
+    
+        
+    }
